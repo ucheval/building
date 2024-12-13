@@ -463,7 +463,10 @@ const person = {
     age: "36",
     isemployed:true
 }
-
+//lets chnage name
+person.name = "valentine"
+//lets delete from array 
+delete person.name
 function determiestatus(value){
     if(value){
         return "employed"
